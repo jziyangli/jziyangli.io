@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Cerritos HS Science</title>
+
+<body>
+
+  <div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+      <a href="index.html">HOME</a>
+      <a href="about.html" style="">ABOUT</a>
+      <div class="current"><a href="sof.html">SOF</a></div>
+      <a href="invitational.html">CERRITOS INVITATIONAL</a>
+      <a href="events.html">EVENTS</a>
+      <a href="contact.html">CONTACT</a>
+    </div>
+  </div>
+
+  <!-- Navigation Menu -->
+  <div class="navbar" style="z-index:0">
+    <!--<a href="#invitational">Cerritos Invitational</a>-->
+    <a><span style="font-size:50px;cursor:pointer;color:white" onclick="openNav()">&#x2630;</a>
+    <div class="nav2"><a href=""><img src="http://homeschoolravenscom.businesscatalyst.com/images/pasted%20image%20450x2002.png" width="20%" height="20%"></a></div>
+    <div class="id">Scientists of the Future</div>
+  </div>
+  <div class="bodyheader">
+    <table border=0 height="600px" width="100%" style="background-image: url(IMG_1047.jpg)">
+      <td width="50%">
+        <div style="text-align:left; color:white !important; font-size:30px">SCIENTSTS</div>
+        <div style="color:#77C9D4; text-align:left;font-size:40px"><strong>OF THE FUTURE</strong></div>
+      </td>
+      <td width="50%">
+        <div style="padding:40px; text-align:left; color:white !important; font-size:18px; line-height:1.5"></div>
+      </td>
+    </table>
+
+  </div>
+  <div class="bodytext">
+    testing
+  </div>
+
+    <figure class="column tint t6">
+      <img src="IMG_9525.jpg">
+    </figure>
+
+    <figure class="column tint t4">
+      <img src="IMG_1072.jpg">
+    </figure>
+
+    <figure class="column tint t5">
+      <img src="IMG_0754.jpg">
+    </figure>
+
+
+
+
+  <script>
+    function openNav() {
+      document.getElementById("myNav").style.display = "block";
+    }
+
+    function closeNav() {
+      document.getElementById("myNav").style.display = "none";
+    }
+    window.onscroll = function() {
+      scrollFunction()
+    };
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
+        document.getElementByClassName("navbar").style.display = "none";
+      } else {
+        document.getElementByClassName("navbar").style.display = "block";
+      }
+    }
+
+    function totop() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+  </script>
+
+</html>

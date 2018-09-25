@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .st-bg {
+      background: #57BC90
+    }
+
+    .st-bg-today {
+      background: #015249
+    }
+
+    .st-dtitle {
+      background: #A5A5AF
+    }
+  </style>
+</head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Cerritos HS Science</title>
+
+<body>
+
+  <div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+      <a href="index.html">HOME</a>
+      <a href="about.html" style="">ABOUT</a>
+      <a href="#" style="">SOF</a>
+      <a href="#">SCIOLY</a>
+      <a href="#">CERRITOS INVITATIONAL</a>
+      <a href="events.html">EVENTS</a>
+      <div class="current"><a href="#">CONTACT</a></div>
+    </div>
+  </div>
+
+  <!-- Navigation Menu -->
+  <div class="navbar" style="z-index:0">
+    <!--<a href="#invitational">Cerritos Invitational</a>-->
+    <a><span style="font-size:50px;cursor:pointer;color:white" onclick="openNav()">&#x2630;</a>
+    <div class="nav2"><a href=""><img src="http://homeschoolravenscom.businesscatalyst.com/images/pasted%20image%20450x2002.png" width="20%" height="20%"></a></div>
+    <div class="id">CONTACT</div>
+  </div>
+
+  <div style="margin-top:100px; position:relative;z-index:-1">
+    <table border=0 height="600px" width="100%" style="text-align:left; padding: 40px 90px; background-image: url(tintedct.jpg); background-repeat:no-repeat; background-size:cover;">
+      <td width="50%">
+        <div style="text-align:left; color:white !important; font-size:30px">WELCOME TO</div>
+        <div style="color:#77C9D4; text-align:left;font-size:40px"><strong>CHS SCIOLY</strong></div>
+      </td>
+      <td width="50%">
+        <div style="padding:40px; text-align:left; color:white !important; font-size:18px; line-height:1.5">Feel free to contact us through any of the means listed. We will try to get in touch as soon as possible to address any questions or concerns you might have.</div>
+      </td>
+    </table>
+    <table border=1 width="100%" style="text-align:left; padding: 40px 90px">
+      <tr style="font-size:25px;">
+        <th width="33%">LOCATION</th>
+        <th width="33%">CONTACT US</th>
+        <th width="33%">INFO</th>
+      </tr>
+      <tr style="font-size:22px; color:#77C9D4 !important;">
+        <th style="padding-top:30px">CERRITOS HS</th>
+        <th></th>
+        <th style="padding-top:30px">asdf</th>
+      </tr>
+      <tr>
+        <td width="33%">12500 183rd St, Cerritos, CA 90703</td>
+        <td width="33%"></td>
+        <td width="33%">123 456 7890</td>
+      </tr>
+      <tr style="font-size:22px; color:#77C9D4 !important;">
+        <td width="33%"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3312.9423866178686!2d-118.06707928445536!3d33.86537563500109!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dd2cfabafb9b9b%3A0x3eb04a6570641d8e!2sCerritos+High+School!5e0!3m2!1sen!2sus!4v1534540669124"
+            width="90%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></td>
+        <td width="33%%"><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd3KFNowUSUldvnFDEMkxlTGkR2EOOVyluDcL12zL1InPRx3A/viewform?embedded=true" width="90%" height="450px%" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe></td>
+        <th width="33%" style="vertical-align:top;padding-top:30px">EMAIL</th>
+          <table border=0 width="100%" style="text-align:left;">
+            <tr style="font-size:18px; color:#77C9D4 !important;">testing
+            </tr>
+            <tr>
+              TESTING
+            </tr>
+          </table>
+      </tr>
+    </table>
+
+    <div class="column"><div class="title">LOCATION</div><div class="content">CERRITOS HS</div><div class="sub">12500 183rd St, Cerritos, CA 90703</div><div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3312.9423866178686!2d-118.06707928445536!3d33.86537563500109!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dd2cfabafb9b9b%3A0x3eb04a6570641d8e!2sCerritos+High+School!5e0!3m2!1sen!2sus!4v1534540669124"
+        width="90%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div></div>
+    <div class="column"><div class="title">CONTACT US</div></div>
+    <div class="column"><div class="title">INFO</div><div class="content">PHONE</div><div class="sub">(123)456-7890</div></div>
+
+  </div>
+
+
+  <script>
+    function openNav() {
+      document.getElementById("myNav").style.display = "block";
+    }
+
+    function closeNav() {
+      document.getElementById("myNav").style.display = "none";
+    }
+    window.onscroll = function() {
+      scrollFunction()
+    };
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
+        document.getElementByClassName("navbar").style.display = "none";
+      } else {
+        document.getElementByClassName("navbar").style.display = "block";
+      }
+    }
+
+    function totop() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+  </script>
+
+</body>
+
+</html>
